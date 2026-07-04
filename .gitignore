@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.local
+
+# Build artifacts / packaged uploads
+*.zip

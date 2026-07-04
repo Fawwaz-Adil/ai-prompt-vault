@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Prompt Vault — Privacy Policy</title>
+    <style>
+      body {
+        font-family: -apple-system, 'Segoe UI', system-ui, Roboto, Arial, sans-serif;
+        color: #1c2733;
+        line-height: 1.6;
+        max-width: 760px;
+        margin: 40px auto;
+        padding: 0 20px;
+      }
+      h1 { font-size: 26px; margin-bottom: 4px; }
+      h2 { font-size: 18px; margin-top: 28px; color: #128c7e; }
+      .updated { color: #5b6b79; font-size: 14px; margin-bottom: 24px; }
+      code { background: #eef1f4; border-radius: 4px; padding: 1px 5px; font-size: 13px; }
+      a { color: #17ad55; }
+      ul { padding-left: 22px; }
+      .box {
+        background: #eef7f1;
+        border: 1px solid #bfe3cd;
+        border-radius: 10px;
+        padding: 12px 16px;
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>AI Prompt Vault — Privacy Policy</h1>
+    <p class="updated">Last updated: July 4, 2026</p>
+
+    <div class="box">
+      <strong>Summary:</strong> AI Prompt Vault is an offline-first browser extension. Your prompts
+      are stored only on your own device and are never sent to us or to anyone else. We do not
+      collect, transmit, sell, or share any personal data. There are no accounts, servers, trackers,
+      ads, or analytics.
+    </div>
+
+    <h2>1. What the extension stores</h2>
+    <p>Everything you create in AI Prompt Vault is saved <strong>locally on your device</strong>:</p>
+    <ul>
+      <li>Your prompts (titles and text), folders, tags, and favorite marks — stored in your
+        browser's local <code>IndexedDB</code> database.</li>
+      <li>A single non-personal preference (your chosen sort order) — stored via
+        <code>chrome.storage.sync</code>. If you have Chrome Sync enabled, this one setting may sync
+        between your own Chrome browsers through your Google account. It contains no prompt content
+        and no personal information.</li>
+    </ul>
+    <p>This data stays on your device (and, for the single setting above, within your own Google
+      account's Chrome Sync). The developer has no access to it.</p>
+
+    <h2>2. What we collect</h2>
+    <p><strong>Nothing.</strong> AI Prompt Vault has no backend server, no accounts, no analytics,
+      and no third-party services. No usage data, personal information, or prompt content ever leaves
+      your device to reach the developer or any third party.</p>
+
+    <h2>3. Interaction with AI websites</h2>
+    <p>When you click <strong>Insert</strong>, the extension places your selected prompt text into the
+      message box of the AI website you are currently viewing (for example ChatGPT, Claude, Gemini,
+      Perplexity, Copilot, DeepSeek, or Grok). The extension only <em>writes</em> your prompt into
+      that box. It does <strong>not</strong> read, collect, or transmit the contents of those pages,
+      your conversations, or any other information from the websites you visit.</p>
+
+    <h2>4. Clipboard</h2>
+    <p>When you click <strong>Copy</strong>, or when no text box can be found on the current page, the
+      extension copies your prompt to your system clipboard so you can paste it yourself. This happens
+      entirely on your device.</p>
+
+    <h2>5. Permissions</h2>
+    <ul>
+      <li><code>storage</code> — save your sort preference.</li>
+      <li><code>contextMenus</code> — add the right-click "Save selection to Prompt Vault" option.</li>
+      <li><code>scripting</code> &amp; <code>activeTab</code> — insert your prompt into the current
+        tab, only when you ask it to.</li>
+      <li><code>sidePanel</code> — show your prompt library in Chrome's side panel.</li>
+      <li><code>clipboardWrite</code> — copy a prompt to your clipboard on request.</li>
+      <li>Host access — limited to the supported AI websites listed above, solely to place prompt
+        text into their input box.</li>
+    </ul>
+
+    <h2>6. Data sharing and selling</h2>
+    <p>We do not sell or transfer user data to third parties. We do not use or transfer user data for
+      any purpose unrelated to the single purpose of the extension. We do not use or transfer user
+      data to determine creditworthiness or for lending purposes.</p>
+
+    <h2>7. Import and export</h2>
+    <p>You can export your vault to a JSON file and import it back. These files are created and read
+      locally on your device, under your control. They are never uploaded anywhere by the extension.</p>
+
+    <h2>8. Children's privacy</h2>
+    <p>The extension does not collect any data from anyone, including children.</p>
+
+    <h2>9. Changes to this policy</h2>
+    <p>If this policy changes (for example, if optional cloud sync is added in a future version), the
+      updated policy will be posted at this URL with a new "last updated" date, and any new data
+      practices will be clearly described and require your consent where applicable.</p>
+
+    <h2>10. Contact</h2>
+    <p>Questions about this policy? Contact the developer at
+      <a href="mailto:fawwaz.adil21@gmail.com">fawwaz.adil21@gmail.com</a>.</p>
+  </body>
+</html>

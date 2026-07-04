@@ -1,0 +1,23 @@
+{
+  "name": "ai-prompt-vault",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Save, organize, search and insert AI prompts across ChatGPT, Claude, Gemini, Perplexity and more.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && vite build && vite build --config vite.content.config.ts",
+    "watch": "vite build --watch",
+    "test": "vitest run",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.25.4"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vitest": "^3.0.4"
+  }
+}
