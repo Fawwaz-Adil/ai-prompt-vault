@@ -1,7 +1,7 @@
 {
   "name": "ai-prompt-vault",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Save, organize, search and insert AI prompts across ChatGPT, Claude, Gemini, Perplexity and more.",
   "scripts": {

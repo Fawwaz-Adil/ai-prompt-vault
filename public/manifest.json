@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "AI Prompt Vault",
-  "version": "0.1.0",
-  "description": "Save, organize, search, tag and insert AI prompts into ChatGPT, Claude, Gemini, Perplexity and more. Offline-first.",
+  "version": "0.1.1",
+  "description": "Save, organize, search, tag and one-click-insert your AI prompts into your favorite AI chat sites. Offline-first and private.",
   "minimum_chrome_version": "116",
   "icons": {
     "16": "icons/icon16.png",

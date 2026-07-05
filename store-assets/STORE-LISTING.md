@@ -6,8 +6,9 @@ Everything below is paste-ready. Fields are grouped by the dashboard tab they ap
 
 ## Package to upload
 
-- **File:** `ai-prompt-vault-v0.1.0.zip` (in the project root, now contains the real icon).
-- If you already dropped an older ZIP, just upload this one again — it replaces the draft.
+- **File:** `ai-prompt-vault-v0.1.1.zip` (in the project root). v0.1.1 also trims the AI product
+  names out of the manifest description, so no brand-list remains anywhere in the metadata.
+- Upload it on the **Package** tab (it replaces the rejected package).
 
 ---
 
@@ -31,26 +32,33 @@ Everything below is paste-ready. Fields are grouped by the dashboard tab they ap
 AI Prompt Vault
 ```
 
+> ⚠️ v0.1.0 was rejected for "keyword spam" — the long list of AI product names in the
+> description. The copy below fixes that: it names at most two services and describes the
+> rest generically. Do NOT reintroduce a long brand list anywhere in the metadata.
+
 **Summary** (short description, max 132 chars)
 ```
-Save, organize, search and one-click-insert your AI prompts into ChatGPT, Claude, Gemini, Perplexity and more. Offline & private.
+Save, organize, search and one-click-insert your AI prompts into your favorite AI chat sites. Fast, offline, and private.
 ```
 
 **Description**
 ```
 AI Prompt Vault is a fast, private home for all your best AI prompts.
 
-Stop digging through old chats and notes. Save your prompts once, then find and insert them in a click — on ChatGPT, Claude, Gemini, Perplexity, Copilot, DeepSeek, and Grok.
+Stop digging through old chats and scattered notes. Save a prompt once, then find it instantly and drop it into your AI chat site with a single click.
 
 FEATURES
 • Save, edit, and organize prompts with folders, tags, and favorites
 • Instant full-text search across titles, tags, and prompt text
-• One-click insert straight into the AI site's message box
+• One-click insert straight into the AI chat site you're using
 • Fill-in-the-blank variables — write {{topic}} or {{audience}} and get prompted for values on insert
 • Right-click any selected text on a page to save it as a prompt
 • Import and export your whole library as JSON
 • Popup for quick access, plus a roomy side panel for managing large libraries
 • Keyboard shortcuts: Alt+P opens the popup, Alt+Shift+P opens the side panel
+
+WORKS WHERE YOU DO
+AI Prompt Vault inserts your prompts into popular AI chat sites, including ChatGPT and Claude.
 
 PRIVATE BY DESIGN
 • 100% offline — your prompts are stored locally on your device
